@@ -1,18 +1,19 @@
 {
-  "name": "language-athena",
+  "name": "language-athena_script",
   "version": "0.1.0",
-  "description": "Language package for athena scripts",
+  "description": "Language package for athena scripts, modified by Danin",
   "keywords": [
     "language",
     "grammar",
-    "athena"
+    "athena",
+    "rathena"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/JoWei/language-athena.git"
+    "url": "https://github.com/daninfuchs/language-athena.git"
   },
   "bugs": {
-    "url": "https://github.com/JoWei/language-athena/issues"
+    "url": "https://github.com/daninfuchs/language-athena/issues"
   },
   "license": "MIT",
   "engines": {

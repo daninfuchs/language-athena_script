@@ -37,7 +37,7 @@
     'name': 'block.comment.athena'
     },
   {
-    'match': '(["\'])(?:(?=(\\\\?))\\2.)\*?\\1'
+    'match': '(["])(?:(?=(\\\\?))\\2.)\*?\\1'
     'name': 'block.string.athena'
     },
   {
@@ -46,11 +46,11 @@
   },
   {
     'match': '(\\$\\@\\w\+\\$?)'
-    'name': 'temporal.global.variable.athena'
+    'name': 'temporary.global.variable.athena'
   },
   {
     'match': '(\\@\\w\+\\$?)'
-    'name': 'temporal.character.variable.athena'
+    'name': 'temporary.character.variable.athena'
   },
   {
     'match': '(\\.\\w\+\\$?)'
